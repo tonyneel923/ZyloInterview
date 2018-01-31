@@ -19,6 +19,18 @@
   margin-left: 25px
 }
 
+.add {
+  text-align: center;
+  margin-top: 25px;
+  color: blue;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 5px;
+}
+
 input[type=text] {
   padding: 5px;
   border: 2px solid #ccc;

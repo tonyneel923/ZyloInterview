@@ -1,0 +1,11 @@
+.page {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.header {
+  margin-top: 50px;
+  text-align: center;
+  flex: 1;
+}

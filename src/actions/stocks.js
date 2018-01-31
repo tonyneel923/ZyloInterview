@@ -17,3 +17,9 @@ export const addFavorites = (favorite) => {
     favorite
   };
 };
+
+export const removeError = () => {
+  return {
+    type: 'REMOVE_ERROR'
+  };
+};
