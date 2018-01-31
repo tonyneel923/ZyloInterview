@@ -6,11 +6,9 @@ import styles from './PrimaryHeader.module.scss';
 
 const PrimaryHeader = () => (
   <div>
-    <h1>Welcome to our app!</h1>
     <div className={styles.nav}>
-      <NavLink to="/" exact activeClassName={styles.active} className={styles.navItem}>Home</NavLink>
-      <NavLink to="/users/3" activeClassName={styles.active} className={styles.navItem}>Users</NavLink>
-      <NavLink to="/products" activeClassName={styles.active} className={styles.navItem}>Products</NavLink>
+      <NavLink to="/" exact activeClassName={styles.active} className={styles.navItem}>Get Stock Info</NavLink>
+      <NavLink to="/favorites" activeClassName={styles.active} className={styles.navItem}>Favorites</NavLink>
     </div>
   </div>
 );

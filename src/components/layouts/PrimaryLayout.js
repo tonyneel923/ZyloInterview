@@ -1,18 +1,16 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import HomePage from '../pages/HomePage';
+import GetStocks from '../pages/GetStocks/GetStocks';
 import PrimaryHeader from '../ui/PrimaryHeader/PrimaryHeader';
-
-// Sub Layouts
-import UserSubLayout from './UserSubLayout';
 
 const PrimaryLayout = ({ match }) => (
   <div>
     <PrimaryHeader />
     <div>
       <Switch>
-        <Route path={'/'} exact component={HomePage} />
-        <Route path={'/users'} component={UserSubLayout} />
+        <Route path={'/'} exact component={GetStocks} />
+        {/* <Route path={'/more'} component={UserSubLayout} /> */}
+        {/* <Route path={'/favorites'} component={UserSubLayout} /> */}
         <Redirect to={'/'} />
       </Switch>
     </div>

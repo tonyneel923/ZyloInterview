@@ -1,5 +1,5 @@
 {
-  "name": "front-end-bootstrap",
+  "name": "ZyloInterview",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,11 +19,7 @@
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": {
-    "/api": {
-      "target": "http://localhost:8080"
-    }
-  },
+  "proxy": "http://localhost:8000",
   "devDependencies": {
     "node-sass": "^4.7.2",
     "react-app-rewire-css-modules": "codebandits/react-app-rewire-css-modules",

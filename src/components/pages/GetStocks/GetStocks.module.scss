@@ -1,0 +1,39 @@
+.page {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.header {
+  margin-top: 50px;
+  text-align: center;
+  flex: 1;
+}
+
+.inputGroup {
+  flex: 1;
+}
+
+.inputItem {
+  flex: 1;
+  margin-left: 25px
+}
+
+input[type=text] {
+  padding: 5px;
+  border: 2px solid #ccc;
+  width: 200px;
+}
+
+input[type=text]:focus {
+  border-color: #333;
+}
+
+input[type=button] {
+  border: 1px solid black;
+  padding: 6.5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
